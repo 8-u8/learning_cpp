@@ -2,7 +2,6 @@ gcc -g firstprog.c
 ls -l a.out
 gdb -q ./a.out
 
-# (base) t0_u0@0-u0-Thinkpad-T480s:~/Desktop/learning_cpp/sources/hacking-the_art_of_explotation$ bash firstprog_gdb_chk.sh
 # Reading symbols from ./a.out...
 # (gdb) break main
 # Breakpoint 1 at 0x1149: file firstprog.c, line 3.
@@ -42,11 +41,6 @@ gdb -q ./a.out
 # A debugging session is active.
 
 #         Inferior 1 [process 219947] will be killed.
-
-# Quit anyway? (y or n) y
-# (base) t0_u0@0-u0-Thinkpad-T480s:~/Desktop/learning_cpp/sources/hacking-the_art_of_explotation$ firstprog_gcc-g_chk.sh
-# firstprog_gcc-g_chk.sh: command not found
-# (base) t0_u0@0-u0-Thinkpad-T480s:~/Desktop/learning_cpp/sources/hacking-the_art_of_explotation$ bash firstprog_gcc-g_chk.sh
 # -rwxrwxr-x 1 t0_u0 t0_u0 19280  2月 13 18:07 a.out
 # Reading symbols from ./a.out...
 # (gdb) list

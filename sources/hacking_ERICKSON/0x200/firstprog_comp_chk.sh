@@ -19,7 +19,7 @@ objdump -M intel -D a.out | grep -A20 main.:
 # rsp            0x7fffffffdb28      0x7fffffffdb28
 # r8             0x0                 0
 # r9             0x7ffff7fe0d50      140737354009936
-# r10            0x7                 7
+# r10        。    0x7                 7
 # r11            0x2                 2
 # r12            0x555555555060      93824992235616
 # r13            0x7fffffffdc10      140737488346128
