@@ -18,7 +18,7 @@ int main()
     {
         if (a[i] == v)
         {
-            exist == true; // if v found flag.
+            exist = true; // if v found flag.
         }
     }
     //output
